@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import sliderDataReducer from "./sliderSlice";
+import carrouselDataReducer from "./carrouselSlice";
 
 export default configureStore({
   reducer: {
-    sliderSlice: sliderDataReducer,
+    carrouselSlice: carrouselDataReducer,
   },
 });

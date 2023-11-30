@@ -1,4 +1,18 @@
-.App {
-  text-align: center;
+.main-app {
+width: 1500px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.item-1{
+  background-color: blue;  
+}
+.item-2{
+  background-color: rgb(255, 0, 0);  
+}
+.item-3{
+  background-color: rgb(255, 238, 0);  
+}

@@ -1,0 +1,34 @@
+.main-container{
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;    
+    height: 150px;
+}
+
+.button{
+    cursor: pointer;
+    z-index: 1222;
+}
+
+.window {
+    /* width: 100%; */
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.all-pages-container {
+    height: 100%;
+    display: flex;
+   
+}
+
+.all-pages-container-withTransition{
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
